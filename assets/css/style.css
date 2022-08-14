@@ -1,0 +1,329 @@
+body {
+    height: 100vh;
+    background: url(../images/wall.png);
+}
+
+.container {
+    width: 960px;
+    height: 520px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+
+.main-menu .menu .left a {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 28px 10px;
+    line-height: 3;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main-menu .menu nav{
+    display: flex;
+    margin-right: 10px;
+}
+
+.main-menu .menu nav a+a::before {
+    content: "|";
+    color: rgb(247, 239, 239);
+    font-size: 18px;
+    margin-right: 20px;
+}
+.main-menu .menu nav a {
+    color: #999;
+    margin-top: 25px;
+    font-size: 19px;
+    line-height: 35px;
+    margin-left: 20px;
+}
+
+.main-menu {
+    background-color: white;
+    box-sizing: border-box;
+    flex: 0 0 100%;
+    height: 90px;
+}
+
+.main-menu .menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .left-side {
+    background-color: white;
+    box-sizing: border-box;
+    flex: 5;
+    height: 480px;
+    margin-right: 20px;
+}
+
+.container .right-side {
+    background-color: white;
+    box-sizing: border-box;
+    flex: 2;
+    height: 200px;
+
+}
+
+
+.left-side .box h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5;
+    margin: 40px 0 20px 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+.left-side .box img {
+    float: left;
+    width: 200px;
+    margin: 0 20px 0px 25px;
+}
+
+
+.left-side .box p {
+    font-family: Arial, "Helvetica Neue", ;
+    font-size: 18px;
+    line-height: 35px;
+    color: #777;
+    letter-spacing: 1.1px;
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+
+
+
+
+.right-side h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin: 27px 27px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.right-side>.icon {
+    display: flex;
+    justify-content: center;
+    margin: 18px 0;
+}
+
+.right-side>.icon>a {
+    margin: 0 2px;
+}
+
+.right-side>.icon>a>img {
+    width: 62px;
+    height: 62px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    font-size: 12px;
+    color: #ccc;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+}
+
+
+
+
+
+
+
+
+
+
+
+.portfolio-container {
+    width: 960px;
+    height: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+
+
+.portfolio-container #left {
+    flex: 5;
+    background-color: white;
+    margin-right: 20px;
+    height: 480px;
+}
+
+.portfolio-container>#left .box>img {
+    width: 275px;
+    height: 200px;
+    float: left;
+
+}
+.portfolio-container>#left .box {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 10px 0 30px;
+
+}
+
+.portfolio-container>#left .box>h3 {
+    position: absolute;
+    background: #4aaaa5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+    width: 90%;
+    padding: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    bottom: 10px;
+
+}
+
+.portfolio-container>#right .icon>a>img {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+}
+
+.portfolio-container>#left h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5;
+    margin: 40px 0 20px 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+
+.portfolio-container>.right-side {
+    flex: 2;
+    background-color: white;
+    height: 200px;
+} 
+
+
+
+
+/* contact */
+
+.contact-container {
+    width: 960px;
+    margin: 0 auto;
+    text-decoration: none;
+    margin-top: 50px;
+    display: flex;
+}
+
+.contact-container>#left {
+    background-color: white;
+    margin-right: 20px;
+    flex: 5;
+    height: 550px;
+    margin-bottom: 40px;
+
+}
+.contact-container>.right-side {
+    flex: 2;
+    background-color: white;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+.contact-container>#left h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5;
+    margin: 40px 0 20px 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+
+.contact-container>#left>#contact {
+    float: left;
+    width: 274px;
+    margin: 10px 10px 0 30px;
+
+}
+
+
+.contact-container>#left>#contact>.box1>input {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    width: 565px;
+    margin: 10px 0;
+}
+
+
+.contact-container>#left>#contact>.box1>label {
+    color: #747474;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.contact-container>#left>#contact>.box2>textarea {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 180px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    width: 565px;
+    margin: 10px 0;
+}
+
+
+.contact-container>#left>#contact>.box2>label {
+    color: #747474;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.contact-container>#left>#contact>input {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    margin-bottom: 30px;
+    margin-top: 7px;
+}
+
+.contact-container>#right .icon>a>img {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+}
